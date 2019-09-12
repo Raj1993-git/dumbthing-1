@@ -39,6 +39,29 @@ public static int Fibunoci(int g) {
 		b=can;
 		 System.out.println(can); }
 	return can;}
+
+
+public static int  Armstrong() {
+int numb=153;
+int temp=numb;
+	int rem=0;
+	int sum=0;
+	while (numb!=0) {
+		rem=numb%10;
+		rem=rem*rem*rem;
+		sum=sum+rem;
+		numb=numb/10;
+	
+	}
+	System.out.println(sum);
+		
+		  if (sum==temp) { System.out.println("Given number is armstrong number"); }
+		  else { System.out.println("not a armstrong number");}
+		  
+		 
+	
+	return sum;
+}
 	
 }
 	
