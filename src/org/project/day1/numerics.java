@@ -5,6 +5,7 @@ public class numerics extends BaseClass{
 		EvenNumberTotal('l');
 		oddNumberTotal('m');
 		Fibunoci('g');
+		Armstrong();
 	}
 
 }
